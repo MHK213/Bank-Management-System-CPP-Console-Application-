@@ -1,0 +1,7 @@
+﻿  Bank Project (Console Based).cpp
+C:\Users\DELL\Desktop\Programming Advices\Projects\Bank Project (Console Based)\Bank Project (Console Based)\Bank Project (Console Based).cpp(80,25): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\DELL\Desktop\Programming Advices\Projects\Bank Project (Console Based)\Bank Project (Console Based)\Bank Project (Console Based).cpp(584,26): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\DELL\Desktop\Programming Advices\Projects\Bank Project (Console Based)\Bank Project (Console Based)\Bank Project (Console Based).cpp(845,10): warning C4129: 'T': unrecognized character escape sequence
+C:\Users\DELL\Desktop\Programming Advices\Projects\Bank Project (Console Based)\Bank Project (Console Based)\Bank Project (Console Based).cpp(395,1): warning C4715: 'DeleteClientByAccountNumber': not all control paths return a value
+C:\Users\DELL\Desktop\Programming Advices\Projects\Bank Project (Console Based)\Bank Project (Console Based)\Bank Project (Console Based).cpp(456,1): warning C4715: 'UpdateClientByAccountNumber': not all control paths return a value
+  Bank Project (Console Based).vcxproj -> C:\Users\DELL\Desktop\Programming Advices\Projects\Bank Project (Console Based)\x64\Debug\Bank Project (Console Based).exe

@@ -32,9 +32,13 @@ The system stores data in text files to simulate persistence without using a dat
 ---
 
 ========================================
+
         Login Screen
+        
 ========================================
+
 Enter UserName?: admin
+
 Enter Password?: ****
 
 ---------------------------------------------------------------

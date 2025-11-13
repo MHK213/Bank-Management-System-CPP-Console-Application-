@@ -7,7 +7,7 @@ I created this simple project as part of my journey to learn the fundamentals of
 
 ## Features
 
-T- he system provides functions for customer management (adding, deleting, editing, and searching for customers), transaction processing (deposits, withdrawals, and balance verification), and user management (adding, deleting, editing, and searching for customers). It also allows for enforcing user access permissions by assigning permissions to each user upon addition.
+- The system provides functions for customer management (adding, deleting, editing, and searching for customers), transaction processing (deposits, withdrawals, and balance verification), and user management (adding, deleting, editing, and searching for customers). It also allows for enforcing user access permissions by assigning permissions to each user upon addition.
 - The system requires users to log in using a username and password.
 - The system stores data in text files to simulate system continuity without the need for a database.
 - All customers and users are stored in text files.

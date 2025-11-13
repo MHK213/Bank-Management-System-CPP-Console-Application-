@@ -1,37 +1,69 @@
-# 🏦 Bank Management System (C++ Console Application)
+# Bank Management System (C++ Console Application)
 
-This project is a **Bank Management System** implemented in **C++**.  
-It allows bank staff to manage clients, handle transactions, and store data persistently in a text file.
+## Overview
+This project is a **console-based Bank Management System** implemented in C++.  
+It provides functionality for managing clients, handling transactions, and enforcing user access permissions.  
+The system stores data in text files to simulate persistence without using a database.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔹 Client Management
-- Add new clients
-- Update client information
-- Delete clients
-- Find clients by account number
-- View all clients
+-  **User Authentication & Permissions**
+  - Login system with username and password.
+  - Fine-grained permission control (view clients, add, update, delete, transactions, user management).
+  
+- **Client Management**
+  - Add, delete, update, and search clients.
+  - Display all clients in a formatted table.
 
-### 🔹 Transactions
-- Deposit money
-- Withdraw money
-- Check total balances across all clients
+- **Transactions**
+  - Deposit and withdraw money.
+  - Balance inquiry and reports.
 
-### 🔹 Data Handling
-- Persistent storage in `ClientDataFile.txt`
-- Prevents duplicate account numbers
-- Easy-to-read tabular format for client lists
+- **User Management**
+  - Add, delete, update, and search users.
+  - Assign permissions per user.
 
-## 📖 Learning Outcomes
+- **File Handling**
+  - All clients and users are stored in text files.
+  - Supports loading and saving data efficiently.
+
+---
+
+========================================
+
+        Login Screen
+        
+========================================
+
+Enter UserName?: admin
+
+Enter Password?: 1234
+
+---------------------------------------------------------------
+                Main Menu
+---------------------------------------------------------------
+1. Show Client List
+2. Add New Client
+3. Delete Client
+4. Update Client
+5. Find Client
+6. Transactions
+7. Manage Users
+0. Logout
+
+---
+
+## Learning Outcomes
 From this project, I practiced:
-  - Structs and vectors in C++
+  - Work with structs, enums, vectors, and modular functions.
   - File handling (read, write, update, delete)
   - Menu-driven applications
   - Data validation and error handling
+  - Implement user authentication and authorization.
 
-## 🤝 Contributions
+
 This project is part of my personal learning journey.
 
 If you like this project, please ⭐ the repository

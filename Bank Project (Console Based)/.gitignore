@@ -1,0 +1,7 @@
+ Debug/ x64/ .vs/ 0/ *.user
+*.log
+*.obj
+*.exe
+*.pdb
+*.suo
+

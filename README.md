@@ -1,33 +1,18 @@
 # Bank Management System (C++ Console Application)
 
 ## Overview
-This project is a **console-based Bank Management System** implemented in C++.  
-It provides functionality for managing clients, handling transactions, and enforcing user access permissions.  
-The system stores data in text files to simulate persistence without using a database.
+I created this simple project as part of my journey to learn the fundamentals of programming. It's a bank management system implemented in C++.
 
 ---
 
 ## Features
 
--  **User Authentication & Permissions**
-  - Login system with username and password.
-  - Fine-grained permission control (view clients, add, update, delete, transactions, user management).
-  
-- **Client Management**
-  - Add, delete, update, and search clients.
-  - Display all clients in a formatted table.
+T- he system provides functions for customer management (adding, deleting, editing, and searching for customers), transaction processing (deposits, withdrawals, and balance verification), and user management (adding, deleting, editing, and searching for customers). It also allows for enforcing user access permissions by assigning permissions to each user upon addition.
+- The system requires users to log in using a username and password.
+- The system stores data in text files to simulate system continuity without the need for a database.
+- All customers and users are stored in text files.
+- It supports efficient data loading and saving.
 
-- **Transactions**
-  - Deposit and withdraw money.
-  - Balance inquiry and reports.
-
-- **User Management**
-  - Add, delete, update, and search users.
-  - Assign permissions per user.
-
-- **File Handling**
-  - All clients and users are stored in text files.
-  - Supports loading and saving data efficiently.
 
 ---
 
